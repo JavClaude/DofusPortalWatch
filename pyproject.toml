@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dofus_portal_app"
+version = "0.1.0"
+description = ""
+authors = ["Pierre-Arthur Claudé <pierre-arthur.claude@octo.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+rumps = "^0.3.0"
+requests = "^2.28.0"
+lxml = "^4.9.0"
+py2app = "^0.28.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
